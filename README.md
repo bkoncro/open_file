@@ -13,7 +13,8 @@ dependencies:
   #support
   #open_file: ^1.3.0
 ```
-
+Optional
+Add <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> for install apk file
 ## Example
 ```dart
 import 'package:open_file/open_file.dart';
